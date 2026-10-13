@@ -1,50 +1,20 @@
-# Ware
+# Ware — منصة سوق تجارية متعددة البائعين (PWA)
+**Ware — Multi-Vendor Goods Marketplace (PWA)** · التصنيف: منصة تجارة إلكترونية
+> ملف تعريفي بالمشروع ونطاقه؛ هذا المستودع يحتوي على التوثيق فقط ولا يتضمن الشفرة المصدرية.
+> Project overview and scope; this repository contains documentation only, not implementation source code.
 
-منصة تجارة إلكترونية PWA لجميع المنتجات الصناعية والتجارية السورية.
+## نبذة عن المشروع
+منصة PWA للموبايل تعرض منتجات الشركات والمصانع السورية ضمن جميع الفئات التجارية، بخلفية Django ودفع محلي.
 
-## ما هو المشروع؟
-Ware نظام Single-Vendor مكوَّن من Django REST API (خلفية) وNuxt PWA (واجهة)، بدعم دفع Stripe وشام كاش.
+## أبرز النقاط
+- تسجيل صاحب المنشأة/المورد برسوم شهرية 10$، وتسجيل مجاني للعميل الفرد
+- مسارات تسجيل مختلفة للمصدّر/المورد مقابل صاحب المنشأة المستورد
+- دفع عبر Stripe وشام كاش، مع معلومات بيع بالجملة والتجزئة وعمولة المنصة
 
-## المزايا
-تصفح وبحث وفلترة المنتجات، سلة شراء، Checkout كامل، دفع Stripe/شام كاش، حساب مستخدم، لوحة إدارة، تطبيق PWA قابل للتثبيت.
+## الدور
+تصميم وتطوير سوق إلكتروني متعدد البائعين مع تجربة PWA ومسارات البائعين والعملاء وخيارات الدفع المذكورة.
 
-## المعمارية
-راجع `ARCHITECTURE.md` والمخططات في `docs/architecture/`.
+## التقنيات المستخدمة
+Django, PWA, Stripe, Sham Cash, PostgreSQL, Admin Dashboard
 
-## المتطلبات
-راجع `docs/requirements/SRS.md`.
-
-## التثبيت
-### الخادم (Backend)
-راجع `backend/README.md`.
-
-### الواجهة (Frontend)
-راجع `frontend/README.md` (يُضاف عند اكتمال Gate 7 للواجهة).
-
-## إعداد قاعدة البيانات
-راجع `docs/database/DATABASE.md`.
-
-## التشغيل
-```bash
-# Backend
-cd backend && python manage.py runserver
-
-# Frontend
-cd frontend && npm run dev
-```
-
-## الاختبار
-راجع `TESTING.md` (يُنشأ عند بدء Gate 8).
-
-## البناء
-```bash
-cd frontend && npm run build
-```
-
-## النشر
-راجع `DEPLOYMENT.md` (يُنشأ عند بدء Gate 9). استراتيجية الاستضافة الأولية موثّقة في `DECISIONS.md` — القرار 010.
-
-## استكشاف الأخطاء
-- تأكد من تعبئة `.env` بناءً على `.env.example`
-- تأكد من تشغيل PostgreSQL وRedis محلياً أو الاتصال بمزوّد سحابي صحيح
-- راجع `STATUS.md` لمعرفة آخر حالة معروفة للمشروع والمشاكل المفتوحة
+التفاصيل في [TECHSTACK.md](./TECHSTACK.md).
