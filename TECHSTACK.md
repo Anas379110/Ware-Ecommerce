@@ -1,4 +1,4 @@
-# 🛠️ التقنيات المستخدمة — Ware — منصة سوق تجارية متعددة البائعين (PWA)
+# 🛠️ Tech Stack — Ware — Multi-Vendor Goods Marketplace (PWA)
 - Django
 - PWA
 - Stripe

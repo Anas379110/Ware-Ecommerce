@@ -1,20 +1,19 @@
-# Ware — منصة سوق تجارية متعددة البائعين (PWA)
-**Ware — Multi-Vendor Goods Marketplace (PWA)** · التصنيف: منصة تجارة إلكترونية
-> ملف تعريفي بالمشروع ونطاقه؛ هذا المستودع يحتوي على التوثيق فقط ولا يتضمن الشفرة المصدرية.
+# Ware — Multi-Vendor Goods Marketplace (PWA)
+**Ware — Multi-Vendor Goods Marketplace (PWA)** · Category: E-commerce platform
 > Project overview and scope; this repository contains documentation only, not implementation source code.
 
-## نبذة عن المشروع
-منصة PWA للموبايل تعرض منتجات الشركات والمصانع السورية ضمن جميع الفئات التجارية، بخلفية Django ودفع محلي.
+## Project summary
+A mobile PWA platform that displays products from Syrian companies and factories across all commercial categories, with a Django backend and local payment.
 
-## أبرز النقاط
-- تسجيل صاحب المنشأة/المورد برسوم شهرية 10$، وتسجيل مجاني للعميل الفرد
-- مسارات تسجيل مختلفة للمصدّر/المورد مقابل صاحب المنشأة المستورد
-- دفع عبر Stripe وشام كاش، مع معلومات بيع بالجملة والتجزئة وعمولة المنصة
+## Highlights
+- Vendor/business owner registration with a $10 monthly fee, and free registration for individual customers
+- Different registration flows for exporter/supplier versus business-owner importer
+- Payment via Stripe and Sham Cash, with wholesale and retail sales information and platform commission
 
-## الدور
-تصميم وتطوير سوق إلكتروني متعدد البائعين مع تجربة PWA ومسارات البائعين والعملاء وخيارات الدفع المذكورة.
+## Role
+Design and develop a multi-vendor e-commerce marketplace with a PWA experience, vendor and customer flows, and the payment options mentioned.
 
-## التقنيات المستخدمة
+## Technologies used
 Django, PWA, Stripe, Sham Cash, PostgreSQL, Admin Dashboard
 
-التفاصيل في [TECHSTACK.md](./TECHSTACK.md).
+Details in [TECHSTACK.md](./TECHSTACK.md).
